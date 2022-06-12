@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | QR code component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+     @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;500&family=Rubik+Moonrocks&display=swap');
+      body {
+        background-color: #D6E2F0;
+        display: flex;
+        justify-content: center;
+        padding-top: 100px;
+      }
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+      .qr-card {
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        height: 460px;
+        width: 280px;
+        background-color: white;
+        border-radius: 20px;
+        padding: 17px;
+      }
+     
+      .cod-img {
+        height: 284px;
+        width: 280px;
+        border-radius: 20px;
+      }
+      p{
+        text-align: center;
+        color: hsl(220, 15%, 55%);
+        font-family: 'Outfit', sans-serif;
+      }
+      p b{
+        color: black;
+        font-size: 22px;
+      }
+      .qr-text{
+        margin: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="qr-card">
+      <div class="qr-inner">
+        <img src="images/image-qr-code.png" class="cod-img" />
+      </div>
+      <div class="qr-text">
+        <p><b>Improve your front-end skills by building projects</b></p>
+        <p>
+          Scan the QR code to visit Frontend Mentor and take your coding skills
+          to the next level
+        </p>
+      </div>
+    </div>
+
+    
+  </body>
+</html>
